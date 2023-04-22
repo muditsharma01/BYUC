@@ -1,0 +1,47 @@
+.container {
+    background-color: black;
+    color: white;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0062cc;
+    border-color: #005cbf;
+  }
+  
+  .form-control {
+    background-color: #191919;
+    color: white;
+    border: 2px solid #3b3b3b;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+  }
+  
+  .form-label {
+    color: #b3b3b3;
+  }
+  
+  .form-label:hover {
+    color: #f2f2f2;
+  }
+  
